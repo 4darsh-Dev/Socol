@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 100%;
+    height: 3.2rem;
+    background-color: azure;
+    position: fixed;
+    z-index: 99;
+
+}
+.user-search{
+    margin-left: 57px;
+    width: 300px;
+    height: 3rem;
+    border: none;
+    
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: azure;
+    padding-left: 37px;
+    outline: none;
+
+}
+.container{
+    max-width: 100%;
+    height: auto;
+    background: linear-gradient(#df19fb, transparent), linear-gradient(to top left, #ddc821, transparent), linear-gradient(to top right, #34b1c5, transparent);
+    background-blend-mode: screen;
+
+    
+}
+
+nav{
+    display: inline-block;
+}
+#logo-img{
+    height: 41px;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+
+}
+.search-img{
+    height: 15px;
+    position: absolute;
+    top: 16px;
+    left: 70px;
+}
+.item-list{
+    width: 420px;
+    height: 51px;
+    background-color: azure;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+
+}
+
+#upload-btn{
+    position: relative;
+    top: -3px;
+
+    width: 115px;
+    height: 30px;
+    background-color: #625660;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif , monospace;
+    border: 2px solid #625660;
+    border-radius: 6px;
+    margin: 10px;
+
+
+
+
+}
+#upload-btn:hover{
+    cursor: pointer;
+    background-color: #493f47;
+}
+.nav-img{
+    height: 22px;
+    position: relative;
+    /* right: 12px; */
+    top: 4px;
+    /* margin: 12px; */
+    margin: 0px 12px 0px 24px;
+
+
+}
+.nav-img:hover{
+    cursor: pointer;
+
+}
+
+.profile-pic{
+    width :36px;
+    height: 36px;
+    
+    background-size: 32px;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 95px;
+    
+}
+.profile{
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#p-items{
+    display: flex;
+    flex-direction: column;
+    width: 235px ;
+    height: 240px;
+    background-color: azure;
+    position: absolute;
+    top: 37px;
+    right: 2px;
+    border-radius: 6px;
+    list-style-type: none;
+    align-items: center;
+    display: none;
+    z-index: 48;
+    box-shadow: 0px 12px 32px rgba(0, 27, 71, 0.12);
+
+}
+#p-items li a{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(77, 70, 70);
+    margin: 3px 0px  3px 0px;
+    display: inline-block;
+
+}
+
+#p-items li a:hover{
+    color: #3330E4;
+    font-weight: 600;
+}
+
+#p-img{
+    height: 110px;
+    border:  1px solid rgb(186, 18, 219);
+    border-radius: 65px;
+    margin: 10px 0px  10px 0px;
+    
+}
+.profile:hover{
+    cursor: pointer;
+
+}
+.sub-c{
+    width: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    left: 240px;
+    top: 90px;
+
+}
+.c-1{
+    width: 500px;
+    /* height: 650px; */
+    height: auto;
+    background-color: whitesmoke;
+    
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+.c-2{
+    width: 350px;
+    height: 300px;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 211px;
+    top: 90px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 12px;
+
+
+}
+.c-1-head{
+    width: 484px;
+    /* background-color: red; */
+    margin: 8px;
+
+}
+#c-1-head-profile{
+    height: 32px;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+
+}
+.c-1-head-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #625660;
+    transform: translateY(-11px);
+    display: inline-block;
+    text-decoration: none;
+
+
+}
+.c-1-head-name:hover{
+    cursor: pointer;
+}
+
+.c-1-main{
+    width: 484px;
+    margin: 8px;
+    
+
+}
+.c-1-main img{
+    width: 484px;
+
+}
+.c-1-foot{
+    width: 484px;
+    height: 250px;
+    margin: 8px;
+
+    background-color: #ddc821;
+
+}
+.more-icon{
+    height: 20px;
+    position: absolute;
+    right: 22px;
+    top: 28px;
+}
+#more-icon:hover{
+    cursor: pointer;
+
+}
+.c-2-head{
+    width: 334px;
+    height: 34px;
+    background-color: #e8e4e4;
+    border-radius: 6px;
+    padding: 8px;
+
+}
+.c-2-head-text{
+    color: #4b4249;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 4px;
+    padding-top: 4px;
+
+}
